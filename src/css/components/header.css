@@ -168,13 +168,13 @@ transition: color var(--transition-pattern);
   
     .nav-item {
       text-align: center;
-      min-width: 67px;
+      
       transition: transform var(--transition-pattern);
     }
   
     .nav-link {
       color: #FAFAFA;
-  
+      min-width: 67px;
       font-size: 16px;
       font-style: normal;
       font-weight: 500;
@@ -186,10 +186,26 @@ transition: color var(--transition-pattern);
   
   
     }
+
+        .nav-link::after {
+          display: block;
+          content: '';
+          background-color: #FAFAFA;
+          width: 100%;
+          height: 1px;
+        }
   
     .nav-link:active {
       color: #243937;
     }
+
+      .nav-link:active::after {
+          display: block;
+          content: '';
+          background-color: #627878;
+          width: 100%;
+          height: 1px;
+        }
 }
 
 
@@ -214,6 +230,14 @@ transition: color var(--transition-pattern);
       color: #627878;
   
     }
+
+.nav-link:hover::after {
+   background-color: #627878;
+        }
+   
+.nav-link:focus::after {
+  background-color: #627878;
+}
 }
 
 
