@@ -4,7 +4,7 @@ padding-bottom: 32px;
 
 
 
-background-image: url(../../img/hero/bg-mob1@2x.png);
+background-image: url(../../img/hero/bg-mob@1x.png);
 background-repeat: no-repeat;
 background-position:  -450px;
 background-size: cover;
@@ -158,7 +158,7 @@ transition: border-color var(--transition-pattern);
 
     .social-list-item {
         min-width: 55px;
-        max-height: 55px;
+        min-height: 55px;
  
     }
     .social-link {
