@@ -4,9 +4,9 @@ padding-bottom: 32px;
 
 
 
-background-image: url(../../img/hero/bg-mob@1x.png);
+background-image: url(../../img/hero/bg-mob1@2x.png);
 background-repeat: no-repeat;
-background-position:  -1px;
+background-position:  -450px;
 background-size: cover;
 }
 @media screen and (min-resolution: 192dpi){
@@ -19,7 +19,7 @@ background-size: cover;
 @media screen and (min-width: 768px) {
 .hero-section {
     background-image: url(../../img/hero/bg-tab@1x.png);
-    background-position: -120px;
+    background-position: -350px;
 }
 }
 
@@ -32,7 +32,7 @@ background-size: cover;
 @media screen and (min-width: 1440px) {
 .hero-section {
     background-image: url(../../img/hero/bg-desk@1x.png);
-    background-position: -10px;
+    background-position: center;
 }
 }
 
@@ -75,8 +75,8 @@ justify-content: center;
 
 .social-list-item {
 
-min-width: 37px;
-max-height: 37px;
+width: 37px;
+height: 37px;
 }
 
 .social-link {
