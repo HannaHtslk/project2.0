@@ -3,5 +3,12 @@
 <symbol id="icon-burger-menu" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.2857" d="M4 11.333h24M4 20.667h24"></path>
 </symbol>
+<symbol id="icon-arrow" viewBox="0 0 32 32">
+<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="3.2" d="M24 20l-8-8-8 8"></path>
+</symbol>
 </defs>
 </svg>
+
+
+
+
