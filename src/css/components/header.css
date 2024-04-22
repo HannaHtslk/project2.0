@@ -74,12 +74,16 @@ flex-direction: column;
 
 
 @media screen and (min-width: 768px){
+.page-header {
+  padding-top: 32px;
+}
+
 
 .header-wrapper {
   display: flex;
   gap: 151px;
   align-items: flex-start;
-  margin-top: 32px;
+
 
   padding: 0;
 }
