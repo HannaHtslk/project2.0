@@ -10,11 +10,11 @@
    
 
 
-    /* opacity: 0; */
+    opacity: 0;
     pointer-events: none;
-    /* visibility: hidden;
+    visibility: hidden;
     transition: opacity var(--transition-pattern),
-            visibility var(--transition-pattern); */
+            visibility var(--transition-pattern);
 }
 .is-open {
     opacity: 1;
@@ -36,7 +36,7 @@
     background-size: cover;
 
     padding-bottom: 64px;
-    /* padding: 302px 103px 64px 103px; */
+
 
     
 
@@ -114,7 +114,7 @@
     color: #93d3cd;
 }
 
-.order-link-header {
+.order-link-burger {
     display: flex;
         justify-content: center;
         align-items: center;
@@ -152,4 +152,5 @@
     .backdrop {
         display: none;
     }
+    
  }
