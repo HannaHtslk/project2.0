@@ -64,6 +64,9 @@ opacity: 0;
 display: flex;
 flex-direction: column;
 
+transition: opacity var(--transition-pattern),
+    visibility var(--transition-pattern);
+
 }
 .nav-wrapper {
 
@@ -99,6 +102,7 @@ flex-direction: column;
 
   background-color: transparent;
   border: none;
+  transition: transform var(--transition-pattern);
 }
 
 .menu-span {
@@ -175,6 +179,10 @@ transition: color var(--transition-pattern);
       
       transition: transform var(--transition-pattern);
     }
+
+    .menu-btn:active {
+    transform: scale(1.2);
+    }
   
     .nav-link {
       color: #FAFAFA;
@@ -186,8 +194,6 @@ transition: color var(--transition-pattern);
       letter-spacing: -0.32px;
   
       transition: color var(--transition-pattern);
-  
-  
   
     }
 
@@ -215,6 +221,12 @@ transition: color var(--transition-pattern);
 
 
 @media screen and (min-width: 1440px) {
+  .menu-btn:hover, .menu-btn:focus {
+      transform: scale(1.2);
+    }
+
+
+
 .nav-item:hover, .nav-item:focus{
   transform: scale(1.2) ;
 }

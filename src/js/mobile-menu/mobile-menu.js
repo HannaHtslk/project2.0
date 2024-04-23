@@ -2,7 +2,7 @@ const mobMenu = document.querySelector('.backdrop');
 const burgerBtn = document.querySelector('.burger-menu');
 const closeBtn = document.querySelector('.mobile-menu-btn')
 const body = document.querySelector('body');
-console.log(burgerBtn);
+
 
 
 const showHideMenu = () => {
