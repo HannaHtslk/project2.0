@@ -5,3 +5,5 @@ import './about-me/about-me';
 import './reviews/reviews';
 import './projects/projects';
 
+import './mobile-menu/mobile-menu';
+
