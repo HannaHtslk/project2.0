@@ -1,3 +1,7 @@
+.body-is-hidden{
+    overflow: hidden;
+}
+
 .backdrop {
     position: fixed;
     top: 0;
