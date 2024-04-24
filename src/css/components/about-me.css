@@ -140,6 +140,103 @@ min-height: 40px;
  
 
 /* #region-Swiper */
+.hard-skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 55px;
+    margin-top: 32px;
+    width: 100%;
+    
+}
+.swiper-container {
+    width: 260px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.skills-swiper {
+    width: 100%;
+     height: 100%;
+}
+
+.skills-swiper .tech{
+    width: 260px;
+}
+
+.skills-list {
+    display: flex;
+}
+.skills-list .skill-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 130px;
+    height: 130px;
+
+    border: 1px solid rgba(250, 250, 250, 0.20);
+    border-radius: 50%;
+
+
+    color: #FAFAFA;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: -0.32px;
+}
+
+#right-arrow-btn{
+    cursor: pointer;
+    border: none;
+    width: 28px;
+    height: 28px;
+
+    background-color: transparent;
+
+}
+
+
+#right-arrow-btn .right-arrow{
+    stroke: rgba(59, 59, 59, 1);
+    fill: transparent;
+}
+.right-arrow-btn:active .right-arrow {
+    stroke: rgba(250, 250, 250, 1);
+}
+
+.skills-list .chosen {
+    background-color: #2B4441;
+    border-color: #2B4441;
+}
+
+@media screen and (min-width: 768px) {
+    .hard-skills {
+        gap: 64px;
+    }
+
+    .swiper-container {
+        width: 600px;
+    }
+};
+
+@media screen and (min-width: 1439px) {
+    .hard-skills {
+        width: 100%;
+        height: 200px;
+        margin-top: 48px;
+        padding: 0 32px;
+        gap: 72px;
+    }
+
+    .swiper-container {
+        width: 1200px;
+    }
+}
 
 
 /* #endregion */
